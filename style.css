@@ -1,0 +1,113 @@
+html{
+    background-color:lightblue;
+}
+
+.Header{
+    display:flex;
+    justify-content: space-between;
+    padding:0px 10%;
+    align-items:center;
+    background-color:lightcyan;
+    position:sticky;
+    top:0px;
+    z-index:1000;
+    font-size:xx-large;
+    
+    
+
+    
+}
+
+.Navigation ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    justify-content:flex-end; 
+}
+
+.Navigation a{
+    margin-left:20px;
+    text-decoration:none ;
+    color:red;
+}
+p{
+    font-size:x-large;
+}
+
+#PlacesH{
+    background-color:rgb(85, 254, 192);
+}
+
+html.Places{
+    Background-color:rgb(77, 144, 49);
+}
+
+img{
+    margin:20px 40px 20px 100px;
+    width: 500px;
+    height:300px;
+}
+
+#HobbiesH{
+    background-color:lightyellow;
+}
+
+html.hobbies{
+    background-color:rgb(247, 198, 108);
+}
+
+#SeriesH{
+    background-color:rgb(78, 83, 240);
+}
+
+html.Series{
+    background-color:rgb(23, 198, 237);
+}
+h2{
+    display:flex;
+    text-align:center;
+    padding:10px 40px;
+    width:fit-content;
+    margin:50px auto;
+    height:50px;
+    font-size:xx-large;
+    border:dashed;
+    border-color:Purple;
+    border-radius:90px;
+    
+}
+button{
+    display:flex;
+    text-align:center;
+    padding:10px 40px;
+    width:fit-content;
+    margin:50px auto;
+    height:50px;
+    font-size:xx-large;
+    border:dashed;
+    background-color:pink;
+    border-color:Purple;
+    border-radius:90px;
+    
+}
+h1{
+    text-align:center;
+}
+
+hr{
+    background-color:black;
+    border:none;
+    height:5px;
+}
+
+html.hobbies h2{
+    border-color:blue;
+}
+
+html.Series h2{
+    border-color:yellow;
+}
+
+.Image{
+    transition: transform 0.3s ease;
+}
